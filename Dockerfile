@@ -39,4 +39,6 @@ VOLUME /artifactory/data
 VOLUME /artifactory/logs
 VOLUME /artifactory/backup
 
+EXPOSE 8080
+
 WORKDIR /artifactory
